@@ -48,13 +48,13 @@ const row = document.createElement('tr'); = creo una riga tr
 
 row.innerHTML... = ho cercato su internet il funzionamento, viene utilizzato un template per inserire i vari value, con in fine la creazione di un tasto rimuovi per rimuovere tutto.
 
-aggiunta.appendChild(row); aggiungo alla 
+tbody.appendChild(row); aggiungo alla 
 
 
 */
 
 function aggiornaTabella() {
-    const aggiunta = document.querySelector('#tabellaPersone tbody');
+    const tbody = document.querySelector('#tabellaPersone tbody');
     tbody.innerHTML = ''; 
 
     persone.forEach((persona, index) => {
@@ -69,7 +69,7 @@ function aggiornaTabella() {
             <td>${persona.provincia}</td>
             <td><button class="togli" onclick="rimuoviPersona(${index})">Rimuovi</button></td>
         `;
-        aggiunta.appendChild(row);
+        tbody.appendChild(row);
     });
 }
 
