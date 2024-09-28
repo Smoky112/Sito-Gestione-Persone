@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestione Persone</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Gestione Persone</h1>
+    <form id="formPersona">
+        <fieldset>
+        <legend>Inserisci dati Persona</legend>
+
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="cognome">Cognome:</label><br>
+        <input type="text" id="cognome" name="cognome" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="dataNascita">Data di Nascita:</label><br>
+        <input type="date" id="dataNascita" name="dataNascita" required><br>
+
+        <label for="telefono">Numero di Telefono:</label><br>
+        <input type="tel" id="telefono" name="telefono" required><br>
+
+        <label for="paese">Paese:</label><br>
+        <input type="text" id="paese" name="paese" required><br>
+g
+        <label for="provincia">Provincia:</label><br>
+        <input type="text" id="provincia" name="provincia" required><br>
+    </fieldset>
+
+        <button type="button" onclick="aggiungiPersona()">Aggiungi Persona</button>
+    </form>
+
+    <h2>Elenco Persone</h2>
+    <table id="tabellaPersone">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Email</th>
+                <th>Data di Nascita</th>
+                <th>Telefono</th>
+                <th>Paese</th>
+                <th>Provincia</th>
+                <th>Azione</th>
+            </tr>
+        </thead>
+        <tbody>
+        
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

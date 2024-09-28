@@ -1,0 +1,91 @@
+/* 
+        Non sono riuscito ad utilizzre daisy UI
+        Cercando vari tutorial e non solo su internet non sono riuscito a configurarlo correttamente
+*/
+
+
+
+
+html {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #75da17;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bdbaba;
+    border-radius: 5px;
+    text-align: center; 
+}
+
+select{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bdbaba;
+    border-radius: 5px;
+    text-align: center;
+}
+h1, h2{
+    text-align: center;
+}
+
+legend {
+    margin:0 auto;
+}
+
+    
+button:hover {
+    background-color: #66bb16;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #bdbaba;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.togli {   /* Considera la classe nel file js */
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.togli:hover {
+    background-color: #c82333;
+}
